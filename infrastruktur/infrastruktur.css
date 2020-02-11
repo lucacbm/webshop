@@ -1,0 +1,25 @@
+.menubar {
+    background-color: #bbbfc4;
+    overflow: hidden;
+}
+.menubar a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menubar a:hover {
+    background-color: #8f9296;
+    color: #000000;
+}
+.menubar a.active {
+    background-color: #8f9296;
+    color: #000000;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+}
