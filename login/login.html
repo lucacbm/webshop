@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../infrastruktur/infrastruktur.css">
+</head>
+<body>
+<iframe src="../infrastruktur/menubar/menubar.html"></iframe>
+
+<!-- JA den driller, I know, men har ikke tid til at kigge på det mere i dag :DD
+Prøvede bare at indsætte min loginform fra forrige projekt for at få HTML i orden.. -->
+
+Bla bla noget om hvordan mail fungerer. Kører vi med mail til gendannelse, eller bare brugernavn + kode?
+<div id="text">
+    <form style="border:3px solid #ccc">
+        <div class="container">
+            <b>Brugernavn</b> <br/>
+            <input id="navn" type="text" required=""
+                   placeholder="Brugernavn her!"
+                   oninvalid="this.setCustomValidity('Hov hov fister, du har glemt noget! ;)')"
+                   oninput="setCustomValidity('')"/>
+            <br/>
+            <b>Adgangskode</b><br/>
+            <input id="kode" type="password" required=""
+                   placeholder="Kodeord her!"
+                   oninvalid="this.setCustomValidity('Hov hov fister, du har glemt noget! ;)')"
+                   oninput="setCustomValidity('')"/>
+        </div>
+        <div>
+            <button id="opretKnap" type="button" onclick="opretBruger()">Opret Bruger</button>
+            <button id="loginKnap" type="button" onclick="checkBruger()">Login</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
