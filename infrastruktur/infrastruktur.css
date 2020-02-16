@@ -9,6 +9,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    cursor: default;
 }
 .menubar a:hover {
     background-color: #8f9296;
@@ -24,3 +25,39 @@ iframe {
     width: 100%;
     overflow: hidden;
     }
+
+.produktbar {
+    width: 130px;
+    position: fixed;
+    /*z-index: 1;*/
+    top: 82px;
+    left: 15.5px;
+    background: #bbbfc4;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.produktbar a, .dropdownKnap {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: default;
+    outline: none;
+    font-family: "Times New Roman";
+}
+
+.produktbar a:hover, .dropdownKnap:hover {
+    background-color: #8f9296;
+    color: #000000;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #bbbfc4;
+    padding-left: 8px;
