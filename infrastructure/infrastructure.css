@@ -26,7 +26,7 @@ iframe {
     overflow: hidden;
     }
 
-.produktbar {
+.productbar {
     width: 130px;
     position: fixed;
     /*z-index: 1;*/
@@ -37,7 +37,7 @@ iframe {
     padding: 8px 0;
 }
 
-.produktbar a, .dropdownKnap {
+.productbar a, .dropdownButton {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -52,7 +52,7 @@ iframe {
     font-family: "Times New Roman";
 }
 
-.produktbar a:hover, .dropdownKnap:hover {
+.productbar a:hover, .dropdownButton:hover {
     background-color: #8f9296;
     color: #000000;
 }

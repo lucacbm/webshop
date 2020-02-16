@@ -24,10 +24,10 @@ class Visitor extends User {
 
 
 
-//Arrayliste til forskellige bruger Id
+//Arrayliste til forskellige user Id
 let userList = [];
 
 //Metode til at tilføje brugere til arraylisten
-//HUSK det skal være den nyoprettede bruger som hver gang skal tilføjes til arraylisten, ellers skal den eksisterende bruger logge ind.
+//HUSK det skal være den nyoprettede user som hver gang skal tilføjes til arraylisten, ellers skal den eksisterende user logge ind.
 
 this.userId.push
