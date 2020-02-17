@@ -1,4 +1,4 @@
-var dropdown = document.getElementsByClassName("dropdownKnap");
+var dropdown = document.getElementsByClassName("dropdownButton");
 var i;
 for (i = 0; i < dropdown.length; i++) {
     dropdown[i].addEventListener("click", function() {
